@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:{{ page.id }}
+X-WR-CALNAME: {{ page.title }}
+{% for date in page.dates %}BEGIN:VEVENT
+UID:{{ page.id }}.{{ date[0] | date: "%Y%m%d" }}
+LOCATION:{{ page.location }}
+SUMMARY:{{ date[1] }}
+CLASS:PUBLIC
+DTSTART;TZID={{ page.timezone }};VALUE=DATE:{{ date[0] | date: "%Y%m%d" }}
+DTEND;TZID={{ page.timezone }};VALUE=DATE:{{ date[0] | date: "%Y%m%d" }}
+DTSTAMP:{{ site.time | date: "%Y%m%dT%H%M%SZ" }}
+END:VEVENT{% endfor %}
+END:VCALENDAR

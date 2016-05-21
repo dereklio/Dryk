@@ -1,0 +1,25 @@
+---
+id: com.derycklio.calendars.hk-holidays
+layout: ical
+title: Hong Kong Public Holiday
+timezone: Asia/Hong_Kong
+location: Hong Kong SAR, China
+dates:
+  2016-01-01: The first day of January
+  2016-02-08: Lunar New Year's Day
+  2016-02-09: The second day of Lunar New Year
+  2016-02-10: The third day of Lunar New Year
+  2016-03-25: Good Friday
+  2016-03-26: The day following Good Friday
+  2016-03-28: Easter Monday
+  2016-04-04: Ching Ming Festival
+  2016-05-02: The day following the Labour Day
+  2016-05-14: The Birthday of the Buddha
+  2016-06-09: Tuen Ng Festival
+  2016-07-01: Hong Kong Special Administrative Region Establishment Day
+  2016-09-16: The day following the Chinese Mid-Autumn Festival
+  2016-10-01: National Day
+  2016-10-10: The day following the Chung Yeung Festival
+  2016-12-26: The first weekday after Christmas Day
+  2016-12-27: The second weekday after Christmas Day
+---
