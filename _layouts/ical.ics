@@ -1,7 +1,7 @@
 BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:{{ page.id }}
-X-WR-CALNAME: {{ page.title }}
+X-WR-CALNAME:{{ page.title }}
 X-PUBLISHED-TTL:P1W
 {% for date in page.dates %}BEGIN:VEVENT
 UID:{{ page.id }}.{{ date[0] | date: "%Y%m%d" }}
