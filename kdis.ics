@@ -1,0 +1,23 @@
+---
+id: com.derycklio.calendars.kdis
+layout: ical
+title: KDIS Dates
+timezone: Australia/Melbourne
+location: Melbourne, Australia
+dates:
+    # SSL certificates
+    2016-06-20: www.rewired.org SSL expires
+    2016-07-06: *.maxsuper.com.au SSL expires
+    2016-07-06: *.maxcorporate.com.au SSL expires
+    2016-08-03: www.shopinsurance.com.au SSL expires
+    2016-09-22: www.bestwestern.com.fj SSL expires
+    2016-10-22: www.bestwestern.com.au SSL expires
+    2016-11-19: www.bestwestern.co.nz SSL expires
+    2017-01-12: *.goodsuper.com.au SSL expires
+    2017-03-22: www.trimantium.com SSL expires
+    2017-03-22: investors.trimantium.com SSL expires
+    2017-04-01: *.elevateeducation.com SSL expires
+    2017-07-10: www.henleyclub.com.au SSL expires
+    2017-12-04: www.workingholidaysuper.com.au SSL expires
+    2019-06-01: *.tidswell.com.au SSL expires
+---
